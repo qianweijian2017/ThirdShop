@@ -1,10 +1,3 @@
-/*****下拉菜单*******/
-$('.dropdown[hover="1"]').on('mouseenter',function(){
-$(this).addClass('open');
-})
-$('.dropdown').on('mouseleave',function(){
-    $(this).removeClass('open');
-})
 
 /*******显示购物车*********/
 for(var i=0;i<$('.goods_hover').length;i++){

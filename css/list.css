@@ -307,11 +307,15 @@
 .grid_all{
     margin: 30px;
 }
+.grid_all{
+    border-bottom: 1px solid #e5e5e5;
+}
 .grid_all .first{
     clear: both;
 }
 .grid_all .each{
-    border: 1px solid #aaa;
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
 }
 .grid_all .each:first-child{
     border-left: 0;
@@ -337,14 +341,14 @@
 }
 .mark_r span{
     position: relative;
-    color: #00AA88;
+    color: #6BC15F;
     font-size: 50px;
 }
 .mark_r span .li{
     position: absolute;
     top: 17px;
     left: 10px;
-    font-size: 13px;
+    font-size: 12px;
     color: #fff;
 }
 
@@ -356,8 +360,12 @@
      clear: both;
      position: relative;
      width: 100%;
+     border-top: 1px solid #e5e5e5;
+     border-bottom: 1px solid #e5e5e5;
  }
-
+.list_all .each .rb{
+    margin-top: 10px;
+}
 .list_all .each .mark_r{
     float: left;
 }
@@ -375,7 +383,7 @@
 }
 .goods_mask .top_list{
     position: absolute;
-    top: 75px;
+    top: 49px;
     left: 10%;
 }
 .goods_mask .top_list .cont{
@@ -391,7 +399,7 @@
 }
 .goods_mask .add_cart_btn {
     position: absolute;
-    bottom: 5%;
+    bottom: 23%;
     left: 5%;
     border: 2px solid red;
     padding: 5px 25px;

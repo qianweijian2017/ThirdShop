@@ -165,11 +165,8 @@ ul{
     font-family: Andalus;
 }
 /*----------头部右边下拉按钮的二级菜单---------*/
-.dropdown-menu{
-    margin-top: 10px;
-    margin-left:-50px;
-}
-.dropdown-menu li{
+
+/*.dropdown-menu li{
     font-family: "Calibri";
     font-size: 12px;
 }
@@ -181,7 +178,7 @@ ul{
 }
 .dropdown-menu li img{
     margin:10px 10px;
-}
+}*/
 /*第二个菜单*/
 .two .dropdown-menu li{
     margin: 10px 10px;

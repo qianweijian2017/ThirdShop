@@ -1,9 +1,7 @@
 /**
  * Created by Administrator on 2017/3/27.
  */
-$(function  () {
-    $('[data-toggle="tooltip"]').tooltip();
-})
+
 $('#grid').click(function () {
    $(this).attr('selected');
     $('#list').removeAttr('selected');

@@ -17,7 +17,7 @@ $('.show_right[hover="1"]').mouseover(function() {
 
 
 
-/*添加减少商品*/
+/*增加减少商品*/
 $('.cart_goods_list .add').on('click',function () {
     /*对应商品总数量及总价格*/
    var count= $(this).prev().val();
