@@ -3,14 +3,14 @@
  */
 
 $('#grid').click(function () {
-   $(this).attr('selected');
-    $('#list').removeAttr('selected');
+   $(this).addClass('selected');
+    $('#list').removeClass('selected');
     $('.grid_all').show();
     $('.list_all').hide();
 })
 $('#list').click(function () {
-    $(this).attr('selected');
-    $('#grid').removeAttr('selected');
+    $(this).addClass('selected');
+    $('#grid').removeClass('selected');
     $('.grid_all').hide();
     $('.list_all').show();
 })

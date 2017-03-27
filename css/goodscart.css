@@ -24,6 +24,9 @@
 }
 
 /*主体部分*/
+.goodscart_main{
+    width: 1140px;
+}
 .goodscart_main>ul.pay_step{
     padding: 0;
 }
