@@ -279,6 +279,11 @@ ul{
     background-color:#E9654B;
     border-color: #E9654B;
 }
+.btn-fruit-topic:hover{
+    background-color: black;
+    color: white;
+}
+
 .bottom_header_box .sousuo{
     width: 75%;
     padding:0;
