@@ -506,12 +506,6 @@ ul{
     background: #8c8c8c;
     border-radius: 2px;
 }
-[class*="icon-"] {
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-}
 
 /*----最底部---*/
 #powered {
