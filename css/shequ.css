@@ -1,0 +1,38 @@
+
+.shequ_box{
+	width: 70px;
+	position: fixed;
+	right: 0;
+	top: 80px;
+}
+.fixed_icon{
+	width: 50px;
+	height: 50px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	cursor: pointer;
+	opacity:.8;
+	transition: width .5s;
+}
+.fixed_icon:hover{
+	width: 70px;
+	padding-right: 20px;
+	opacity:1; 
+}
+.facebook_box{ 
+	background-color: #3C5A98;
+}
+.weibo_box{
+	background-color: #E87E4D;
+}
+.weixin_box{
+	background-color: #49ED1E;
+}
+.linkedin_box{
+	background-color: #0177B5;
+}
+.qq_box{
+	background-color: #EB1C27;
+}

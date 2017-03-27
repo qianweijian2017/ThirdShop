@@ -1,0 +1,25 @@
+@media (max-width: 750px){
+    .right .title{
+        background-color: #f8694d;}
+    .f1 .right .title h3{
+        color: #fff;
+        font-weight: bold;
+    }
+    .f1 .right .goods-list .goods{
+        border-bottom: 1px solid #dedede;
+    }
+    .header_md .right .right_up{
+        border-bottom: 1px solid #dedede;
+    }
+    .nav_Prompt:before{
+        content: '导航栏';
+        font-size: 20px;
+        color: #999;
+        display: block;
+        margin: 15px 0px 0px 50px;
+    }
+    .cart{float: right}
+    .right_down{
+        margin-top: 30px;
+    }
+}

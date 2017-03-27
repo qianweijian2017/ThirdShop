@@ -1,0 +1,196 @@
+/*公共样式*/
+body{
+    background: #f3f3f3;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.bg-white_color{
+    background-color: #fff;
+}
+.p_left_right_0{
+    padding-right: 0;
+    padding-left: 0;
+}
+.m_left_right_0{
+    padding-right: 0;
+    padding-left: 0;
+}
+/*具体样式*/
+/*头部*/
+.tips_box{
+    background-color: #333;
+    height: 38px;
+    line-height: 38px;
+    color: #999;
+}
+.tips_box a{
+    color: #ccc !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tips_box ul{
+    margin-bottom: 0;
+}
+.main_head_box{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.07);
+    padding: 20px 0;
+    background-color: #fff;
+    color: black;
+}
+.logo_box{
+    height: 70px;
+    line-height: 75px;
+}
+.down_head_box{
+    height: auto;
+    overflow: hidden;
+}
+.search_box input{
+    height: 40px;
+}
+.search_box [class^='col-'],.down_head_box [class^='col-']{
+    padding: 0;
+}
+.search_box input, .search_box button{
+    border-radius: 0
+}
+.btn-fruit-topic{
+    background-color:#E9654B;
+    border-color: #E9654B;
+    height: 40px;
+    width: 60px;
+}
+.up_head_box ul li{
+    margin: 0 8px;
+}
+.up_head_box a{
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: "Hind", sans-serif;
+}
+.up_head_box a:hover{
+    color: #ff6633;
+}
+.up_head_box .second-menu{
+    padding-left: 10px;
+}
+.dropdown-menu{
+    padding: 5px 10px;
+}
+.down_head_box .form-group{
+    margin-bottom: 0;
+}
+/*购物车按钮*/
+.cart_box{
+    background-color:#f8694d ;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+}
+.cart_box .title-cart{
+    font: 700 12px "Hind", sans-serif;
+}
+.cart_box .fa-angle-down{
+    margin-left: 10px;
+}
+
+/*首页第一屏*/
+.index_first_box{
+    margin-top: 20px;
+}
+.index_first_box .cate_tips_box{
+    background-color: #F8694D;
+    color: #fff;
+    padding: 18px 0 18px 18px;
+}
+/*分类区域*/
+.cate_box{
+    padding: 0;
+}
+.cate_box >li{
+    background-color: #333;
+    padding:11.5px 15px;
+    border-bottom: 1px solid #414141;
+}
+.cate_box >li >a{
+    color: #acacac;
+}
+.cate_box >li >a .fa:first-child{
+    padding-right: 10px;
+}
+/*下拉菜单居容器右边的样式*/
+.cate_box .dropdown-menu{
+    left: 100%;
+    top: 0;
+    width: 300px;
+    height: 200px;
+}
+/*第一屏*/
+.first_center_box{
+    padding: 0 5px;
+}
+/*中间部分幻灯片*/
+.banner_box{
+    clear: both;
+}
+.best_goods_list{
+    height: 168px;
+}
+.best_goods_list .carousel-inner{
+    height: 100%
+}
+#goods_slidershow .carousel-control{
+    background:transparent;
+}
+.best_goods_list .carousel-control{
+    z-index: 999;
+    background: transparent;
+    top: -40px;
+    height: 35px;
+    text-shadow: unset;
+    opacity: 0;
+    transition:all 0.5s;
+}
+.best_seller_box:hover .carousel-control{
+    opacity: 1;
+}
+.best_seller_box{
+    margin-top: 20px;
+}
+.best_tips_box{
+    background-color: #6BC15F;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+/*轮播下面的商品*/
+
+.carousel-inner ul li{
+    border-right: 1px solid silver;
+}
+.product-block .imge{
+    text-align: center;
+}
+.product-block .imagess{
+    max-height: 80px;
+    display: inline-block;
+}
+/*右边广告图片*/
+.adv_box{
+    padding-right: 0;
+}
+.adv_box .up_adv_box{
+    padding-right: 0;
+}
+.adv_box .down_adv_box{
+    margin-top: 20px;
+}

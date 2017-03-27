@@ -1,0 +1,146 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color:#ededed;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.none-padding{padding:0px}
+.none-radius{
+    border-radius: 0;
+}
+.dropdown-menu{
+    margin-top: -2px;
+}
+.header_top,.header_top a{
+    background: #444;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+}
+.header_top a:hover{
+    color: #dedede;
+}
+.header_top .country a{
+    background-color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.header_md{
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px #999;
+}
+.header_md .logo{
+    height: 113px;
+    line-height: 113px;
+}.header_md .right .right_up{
+     border:none;
+    margin: 0px;
+     background-color: transparent;
+ }
+.header_md .right .right_up .collapse>ul>li{
+cursor: pointer;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.header_md .right .right_up li>a{
+    color: #666;
+}
+.header_md .right .right_up li .child_menu{
+    padding: 0px 20px;
+}
+.header_md .right .right_up li .child_menu li{
+    margin-bottom: 5px;
+}
+.header_md .right .right_down .form-search{
+    margin: 10px auto ;
+}
+.header_md .right .right_down .form-search .button-search{
+width: 100%;
+    background-color: #f8694d;
+    border:1px solid #f8694d;
+}
+.header_md .right .right_down .form-search .button-search:hover{
+    background-color: #e56247;
+    border:1px solid #e56247;
+}
+.header_md .right .right_down .cart{
+    height: 46px;
+    line-height: 46px;
+    display: block;
+    background-color: #f8694d;
+    margin-top: 10px;
+    color: #fff;
+    font-size:20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header_md .right .right_down .cart:hover{
+    background-color: #e56247;
+}
+.share-icon{
+    position: fixed;
+    right: 0px;
+    top: 150px;
+    width: 60px;
+}
+.share-icon i{
+    font-size: 24px;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0.1s;
+    float: right;
+}
+.share-icon i:hover{
+    width: 80px;
+}
+.share-icon .facebook-icon{
+    background: #3B589C;
+}
+.share-icon .weibo-icon{
+    background: #D8282A;
+}
+.share-icon .weixin-icon{
+    background: #06D002;
+}
+.share-icon .qq-icon{
+    background: #2D9FE0;
+}
+.share-icon .user-icon{
+    background: #4AA4BF;
+}
+.goods_hover{
+    position: relative;
+}
+.hover_display{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left:0px;
+    background-color: rgba(255,255,255,0.8);
+    padding:20px;
+    display: none;
+}
+.hover_display .cart{
+    height: 30px;
+    line-height: 26px;
+    font-size: 16px;
+    width: 80%;
+    border-radius: 10px;
+    color:#f8694d;
+    border:2px solid #f8694d;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+ body{
+ 	background-color: #F3F3F3;
+ }
+ .headlink{
+ 	padding: 20px 0;
+ 	border-bottom: 1px solid #DEDEDE;
+ }
+ .headlink .current_link,.headlink .current_link a{
+	color: #9FA1A1;
+ }
+ .headlink .current_link .link-hover:hover{
+	color: #000;
+ }
+.headlink .current_link .link-active{
+  	color: #4E423F;
+}
+.user_form{
+	margin-top: 30px;
+	background-color: #fff;
+	padding: 15px 0 40px 0;
+}
+.user_form .left_form,.user_form .right_form{  
+	border: 1px solid #e1e1e1;
+} 
+.user_form form{
+	padding-bottom: 20px;
+}
+.user_form form h4{
+	color: #222222;
+	line-height: 44px;
+	border-bottom: 1px solid #e1e1e1;
+	font-weight: 600;
+}
+.user_form form label{
+	display: block;
+	line-height: 24px;
+	color: #828282;
+}
+.user_form form input{
+	width: 255px;
+	padding-left: 5px;
+	border: 1px solid #D1D1D1; 
+}
+
+.user_form form.create_user p{
+	color: #8A8B8A;
+}
+
+.user_form form.login_user .forgot_password{
+	line-height: 50px;
+}
+.user_form form.login_user .forgot_password a{
+	color: #3E3E3E;
+	text-decoration: underline;
+}
+.user_form form.login_user .forgot_password a:hover{
+	text-decoration: none;
+	color: #F87964;
+}
+.user_form form .btn_login button,.user_form form .btn_reg button{  
+	padding: 8px;
+	color: #fff;
+	background-color: #333;
+}
+.user_form form .btn_login button:hover,.user_form form .btn_reg button:hover{
+ 	background-color: #F8694D;
+ }
+.user_form form .btn_reg button{
+	margin-top: 20px;
+}
+.user_form form .btn_login .lock{
+	color: #fff;
+}

@@ -1,0 +1,213 @@
+.row{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+#fruit_list_one{
+	margin-top: 30px;
+}
+.up_box .up_left{
+	background-color: orange;
+	padding: 0;
+	margin: 0;
+}
+.up_box .up_left .up_left_title{
+	color: #fff;
+	font-weight: bold;
+}
+.carousel_fruit_left_arrow{
+	height: 40px;
+	margin-top: -31px;
+}
+.carousel_fruit_left_arrow a{
+	color: #fff;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	font-size: 12px;
+	margin-right: 5px;
+	font-weight: 300;
+	border: 1px solid #EF8B3D;
+} 
+
+
+.down_box .guanggao{
+	padding: 0;
+}
+.guanggao02{
+	padding-left: 11px;
+}
+.up_box .up_right .up_right_title{
+	font-size: 18px;
+	color: #F79D00;
+	font-weight: bold;
+}
+.up_box .up_right .up_right_item{
+	height: 0;
+}
+.up_box .up_right .up_right_item p{
+	margin-right: 10px;
+}
+.up_box .up_right .up_right_item p a{
+	padding:0 15px; 
+	font-size: 14px;
+	color: #F79D00;
+	font-weight: bold;
+}
+.up_box .up_right .up_right_item p a:hover{
+	text-decoration: none;
+	color: #F75D08;
+}
+.down_left .down_left_item{
+	height: 115px;
+	margin-top: 22px;
+}
+.down_right_list{
+	margin-top: 27px;
+	height: 240px;
+	position: relative;
+}
+.down_right .down_right_list:hover .down_right_list_img{
+	opacity: 0; 
+}
+.down_right .down_right_list .down_right_list_img{ 
+	margin-top: 25px;
+	position: relative;
+}
+.down_right .down_right_list .down_right_list_img .new{
+	position: absolute;
+	width: 62px;
+	height: 49px;
+	right: -10px;
+	top:-40px;
+	background: url("../img/new.png") no-repeat;
+	background-size: cover;
+}
+.down_right .down_right_list .down_right_list_start,
+.down_left .down_left_item .down_left_item_text .down_left_item_text_start{
+	height:20px;
+} 
+.down_right_list_prince,
+.down_left .down_left_item .down_left_item_text .down_left_item_text_prince{
+	font-weight: bold;
+	color: #f00;
+}
+.down_right_list .down_right_list_detail,
+.down_left .down_left_item .down_left_item_text .down_left_item_text_detail{
+	height: 40px;
+}
+ 
+.up_box{
+	height: 50px;
+	line-height: 50px; 
+} 
+.two_screen .two_up{
+	margin-top: 50px;
+	line-height: 80px;
+}
+
+.two_up .two_title{
+	font-size: 18px;
+	color: #6BC15F;
+	font-weight: 600;
+	text-indent: 10px;
+}
+ .two_up .two_item{
+ 	margin: 0;
+ 	padding-left: 20px;
+ }
+.two_up .two_item a{
+	padding: 0 5px;
+	margin-right:20px;
+	font-weight: bold;
+	color: #F7A221;
+}
+.two_up .two_item  a:hover{ 
+	color: #ED8C3F;
+}
+.two_up .two_bar_title{
+	background-color:#6BC15F; 
+	font-size: 18px;
+	text-indent: 20px;
+	color: #fff; 
+}
+ 
+.down_right_list .add_cart_content,
+.hot_item .add_cart_content{
+	position: absolute;
+    bottom: 52px;
+    background: rgba(255,255,255,.7);
+    width: 100%;
+    height: 110px;
+    cursor: pointer;
+    transition: opacity .5s;
+    opacity: 0;
+}
+.hot_item .add_cart_content{ 
+    bottom: 17px;
+    height:82px;
+}
+.down_right_list:hover .add_cart_content,  
+.hot_item .hot_item_box li:hover .add_cart_content 
+{
+	opacity: 1;
+}
+
+.down_right_list:hover .down_right_list_img,
+.hot_item .hot_item_box li:hover .hot_item_img {
+	opacity: 0;
+}
+.down_right_list .hot_item_img,
+.down_right_list .down_right_list_img {
+	transition: opacity .5s;
+}
+.down_right_list .add_cart_content .add_cart_btn,
+.hot_item .add_cart_content .add_cart_btn{
+	width: 100px;
+	height: 35px; 
+	margin:40px auto 0;
+}
+.hot_item .add_cart_content .add_cart_btn{
+	margin:20px auto 0;
+}
+.down_right_list .add_cart_content .add_cart_btn span,
+.hot_item .add_cart_content .add_cart_btn span{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+	line-height: 25px;
+	border-radius: 50%;
+	color: #F55D3E;
+	border: 1px solid #F55D3E;
+}
+.down_right_list .add_cart_content .add_cart_btn span:hover,
+.hot_item .add_cart_content .add_cart_btn span:hover{
+	color: #fff;
+	background-color: #F55D3E;
+}
+.down_right_list .add_cart_content .btn_add_cart,
+.hot_item  .add_cart_content .btn_add_cart{ 
+	text-align: center; 
+	margin:0 auto ;
+	width: 120px;
+	height: 25px;
+	color: #F55D3E;
+	font-size: 14px;
+	font-weight: bold;
+	background: none; 
+	border: 1px solid #F55D3E;
+	border-radius: 10px;
+}
+ 
+.down_right_list .add_cart_content .btn_add_cart:hover,
+.hot_item  .add_cart_content .btn_add_cart:hover{
+	color: #fff;
+	background-color: #F55D3E;
+}
+
+ 
+ 

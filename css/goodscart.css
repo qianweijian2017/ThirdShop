@@ -1,0 +1,92 @@
+.breadcrumb>a{
+    color: #999999;
+}
+.breadcrumb>a span{
+    margin-left: 4px;
+}
+.breadcrumb>a>i{
+    margin-right: 4px;
+}
+.breadcrumb>a.cur_page{
+    margin-left: 4px;
+}
+.goodscart_summary{
+    width: 100%;
+    border-bottom: 1px solid #999;
+    margin: -25px 0 20px 0;
+}
+.goodscart_summary .goodscart_cont{
+    margin-bottom: 10px;
+}
+.goodscart_summary .header_counter{
+    float: right;
+    font-size: 16px;
+}
+
+/*主体部分*/
+.goodscart_main>ul.pay_step{
+    padding: 0;
+}
+.goodscart_main>ul.pay_step>li{
+    float: left;
+    font-size: 20px;
+    padding: 30px 0 15px 0;
+    margin: 0 0 45px 0;
+    width: 220px;
+    border-bottom: 4px solid #000;
+}
+.goodscart_main>ul.pay_step>li:first-child{
+    color: #f8694d;
+    border-bottom: 4px solid #f8694d;
+    padding-left: 55px;
+}
+.cart_goods_list .goods{
+/*border:1px solid #999;*/
+    width: 100%;
+}
+.cart_goods_list .goods tr td,th{
+    padding: 10px;
+}
+.cart_goods_list .goods tr td:nth-of-type(2){
+    width: 480px;
+}
+.cart_goods_list .goods img{
+    width: 95px;
+    height: 81px;
+    border: 1px solid #dddddd;
+    margin: 20px;
+}
+.cart_goods_list .goods input.count{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+.cart_goods_list .goods tr th{
+    font-weight: normal;
+}
+
+.cart_goods_list .goods .cout{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+   /* font-size: 20px;*/
+}
+.cart_goods_list .money{
+    color: #f8694d;
+}
+.cart_goods_list .total-money .total{
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+.cart_goods_list .total-money .bott{
+    margin-bottom: 20px;
+
+}
+.cart_goods_list .total-money .pay{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0;
+}
