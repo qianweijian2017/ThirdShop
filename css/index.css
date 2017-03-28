@@ -156,8 +156,14 @@ a{
 } 
 
 
-.down_box .guanggao{
+.guanggao{
 	padding: 0;
+}
+.guanggao,.guanggao02{ 
+	transition: opacity .5s;
+}
+.guanggao:hover,.guanggao02:hover{
+	opacity: .7;
 }
 .guanggao02{
 	padding-left: 11px;
