@@ -3443,7 +3443,7 @@
 				<div class="bottom_content">
 
 					<!-- carousel组件 -->
-					<div id="bottom_hook" class="bottom_hook  carousel" data-slide="carousel">
+					<div id="bottom_hook" class="bottom_hook  carousel"  >
 
 						
 
@@ -3633,20 +3633,9 @@
 
 <script src="js/jQuery2.14.js"></script>
 <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 <script src="js/common.js"></script> 
- 	<script type="text/javascript">
- 		$('#left_nav').scrollspy({ target: '#left_nav' });
- 		if($(window).width()<=768){
- 			$(".catebox .catebox_list").hide();
- 			$(".catebox").click(function() {  
- 				$(".catebox .catebox_list").slideToggle();
-	 		} );
- 		} 
- 		$('#foot_brand').carousel({
-            pause: true,
-            interval: false
-        });
- 	</script>
+ 	
  	<!-- 左侧导航滚动监听  -->
  	<div class="fixed_left_nav" id="left_nav">
  		<ul class="nav nav-tabs">
@@ -3683,8 +3672,6 @@
 			<i class="fa fa-qq fa-lg"></i>  
 		</div> 
 	</div>
-	<!-- 右侧社区工具end -->
-
-<script src="js/common.js"></script>
+	<!-- 右侧社区工具end --> 
 </body>
 </html>

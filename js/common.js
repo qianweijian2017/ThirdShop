@@ -8,8 +8,7 @@ $(function(){
 	$('[data-toggle="tooltip"]').tooltip();
 });
 $(function  () {
-	$('[data-toggle="tooltip"]').tooltip();
-
+	$('[data-toggle="tooltip"]').tooltip(); 
 	$('[data-toggle="collapse"]').click(function  () {
 		console.log($(this).attr('aria-expanded'));
 		if ($(this).attr('aria-expanded')=='true') {
@@ -18,4 +17,9 @@ $(function  () {
 			$(this).html("-");
 		}
 	})
+	//取消底部的自动播放商标 
+	$('#bottom_hook').carousel({
+        pause: true,
+        interval: false
+    });
 })

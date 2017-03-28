@@ -346,6 +346,7 @@ a{
 	top: 100px;
 	background: rgba(245,93,62,.8);
 	border-radius: 5px;
+	display: none;
 }
 
 .fixed_left_nav ul li{
