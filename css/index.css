@@ -1,7 +1,9 @@
 .one_screen{
 	margin-top: 30px;
 }
-
+.catebox{
+	padding-left: 0;
+}
 .catebox_title{
 	padding: 12px 0 12px 10px;
 	background-color: #F8694D;
@@ -42,9 +44,7 @@
 }
 
 
-.one_screen #top_lunbo img{
- 	 width: 100%;
- }
+
 #carousel_two ul,
 #carousel_two ul li,
 #carousel_two ul li img{
@@ -86,9 +86,13 @@
 	margin-right: 10px;
 }
 #top_lunbo{
-	padding: 0;
-	margin: 0;
+	padding-left:0; 
+	padding-right: 10px;
 }
+#top_lunbo img{
+ 	 width: 100%;
+}
+
 #top_lunbo .top_hot_title{
 	margin-top: 20px;
 	height: 30px;
@@ -118,7 +122,7 @@
 	line-height: 35px;
 }
  .one_screen .head_right_bar{ 
-
+	padding-right: 0;
 }
 .carousel-control{
 }
@@ -131,7 +135,7 @@
 a{
 	text-decoration: none;
 }
-#fruit_list_one{
+#fruit,#food{
 	margin-top: 30px;
 }
 .up_box .up_left{
@@ -336,8 +340,32 @@ a{
 	background-color: #F55D3E;
 }
 
- 
- 
+.fixed_left_nav{  
+	position: fixed;
+	left: 30px;
+	top: 100px;
+	background: rgba(245,93,62,.8);
+	border-radius: 5px;
+}
+
+.fixed_left_nav ul li{
+ 	line-height: 30px;
+ 	clear: both;
+ 	text-align: center;
+ }
+.fixed_left_nav ul li a{
+	margin: 0;
+	color: #fff;
+}
+.fixed_left_nav ul li:hover a{
+	color: #FA6748;
+}
+.fixed_left_nav ul li.active a{
+	color: #F77D65;
+}
+.fixed_left_nav ul li.active a:hover{
+	color: #F77D65;
+}
 @media screen and (max-width: 1198px){
 	.down_left {
 		position: relative;
