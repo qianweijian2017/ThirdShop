@@ -87,8 +87,7 @@ header .header-main .header-cart>span>span{
     width: 100%;
     top: 46%;
     position: absolute;
-    right: 0;
-    z-index: 9;
+    right: 0; 
     height: 20px;
     line-height: 11px;
 }
@@ -374,6 +373,7 @@ ul{
 }
 #footer .block {
     margin-bottom: 0;
+    padding: 0;
 }
 .pts-newsletter {
     min-height: 95px;
